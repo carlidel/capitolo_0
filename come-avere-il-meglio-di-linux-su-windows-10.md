@@ -21,4 +21,11 @@ Una volta installato e avviato tale server X (comparirà in basso a destra come 
 ```bash
 $ export DISPLAY=:0
 ```
+È possibile automatizzare questa cosa ad ogni avvio della bash inserendo questo script nel file `\home\<iltuonomeutente>\.profile`, per fare ciò è sufficiente usare l'editor `nano` da terminale tramite i comandi:
+```bash
+# per andare nella propria cartella home
+$ cd
+# per aprire e poter modificare il file .profile
+$ nano .profile
+```
 Molto facile e molto piacevole. :)
