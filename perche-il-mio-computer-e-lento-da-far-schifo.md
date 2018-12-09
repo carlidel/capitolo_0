@@ -1,7 +1,3 @@
----
-description: Le basi per avere un rapporto decente e non abusivo col proprio computer.
----
-
 # Perché il mio Computer è lento da far schifo?
 
 Molto spesso mi sono trovato amici e colleghi costretti ogni giorno a doversi interfacciare con computer e laptop dalle performance analoghe a quelle di una patata attaccata ad un tostapane con della colla vinilica. Tempi di caricamento eterni, continui momenti di blocco totale del sistema, eterne ore di attesa per riuscire ad aprire anche il minimo programma, totale incapacità di installare anche il più semplice programma.

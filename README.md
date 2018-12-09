@@ -1,7 +1,3 @@
----
-description: Breve dichiarazione di intenti.
----
-
 # Capitolo\_0
 
 ## Cosa è Capitolo\_0?
@@ -25,6 +21,8 @@ Queste cose:
 ### Perché stai a fare questa cosa?
 
 Da un lato per allenarmi ad usare GitBook, da un lato perché desidero allenarmi a scrivere documentazione e manuali di divulgazione, da un altro lato perché tutte le volte che un amico o collega mi chiede assistenza in informatica, la radice del problema risulta essere causata sempre dagli stessi medesimi fattori, che ho intenzione di elencare in questo lavoro di sfogo.
+
+Inevitabilmente ci saranno in giro non pochi errori di ortografia e sintassi, ed in molti altri punti le scelte di parole e di frasi saranno decisamente infelici.
 
 ### Voglio dare una mano, fare aggiunte o correggere un errore!
 
