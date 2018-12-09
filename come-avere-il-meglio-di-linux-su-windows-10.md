@@ -18,7 +18,7 @@ $ sudo dpkg-reconfigure keyboard-configuration
 
 N.B. L'utente più all'avanguardia desidererà essere anche in grado di eseguire programmi provvisti di interfaccia grafica, oltre che solo programmi da linea di comando. Per fare ciò sarà necessario installare su Windows una valida implementazione del server grafico X, tale implementazione si chiama [Xming](http://www.straightrunning.com/XmingNotes/) ed è scaricabile da [qui](https://sourceforge.net/projects/xming/files/Xming/6.9.0.31/Xming-6-9-0-31-setup.exe/download), si consiglia anche l'installazione delle librerie standard di font assortiti per avere il campionario completo di Xming da [qui](https://sourceforge.net/projects/xming/files/Xming-fonts/7.7.0.10/Xming-fonts-7-7-0-10-setup.exe/download) \(Tali font sono necessari per la corretta esecuzione della libreria `passe-par-tout` scritta dal Prof.Graziano Servizi\).
 
-Una volta installato e avviato tale server X \(comparirà in basso a destra come icona risultante server attivo presso l'indirizzo `.0`\), è necessario dire alla linea di comando ATTIVA Linux \(è possibile automatizzare questa cosa inserendo uno script non-mi-ricordo-dove\) di FARE USO di tale server attivo sul computer `localhost`. Per fare ciò è sufficiente scrivere:
+Una volta installato e avviato tale server X \(comparirà in basso a destra come icona risultante server attivo presso l'indirizzo `.0`\), è necessario dire alla linea di comando ATTIVA Linux di FARE USO di tale server attivo sul computer `localhost`. Per fare ciò è sufficiente scrivere:
 
 ```bash
 $ export DISPLAY=:0

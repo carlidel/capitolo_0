@@ -73,9 +73,15 @@ Fallo.
 
 È vitale per poter lavorare in piena tranquillità e normalmente col proprio computer. Soprattutto quando si tratta di scrivere codice, in quanto, se si ha a che fare con la scrittura di software in generale. Si è molto molto **MOLTO più tranquilli** nel maneggiare il proprio computer quando si è consapevoli che **TUTTI i propri file veramente importanti sono al sicuro su altri dispositivi e/o su di un qualche servizio cloud** \(come i [1000GB offerti gratuitamente su OneDrive per tutti gli studenti dell'UNIBO](https://www.unibo.it/it/servizi-e-opportunita/studio-e-non-solo/agevolazioni-per-computer-tablet-e-software/microsoft-office-365)\).
 
-Fintanto che non seguirai decentemente la [regola del 3-2-1](https://www.youtube.com/watch?v=rFO6NyLIP7M) per i backup. Non sarai MAI in grado di lavorare in piena tranquillità con il tuo computer e, come immediata conseguenza, non sarai MAI in grado di scrivere decentemente qualsivoglia tipo di codice informatico.
+Fintanto che non seguirai decentemente la [regola del 3-2-1](https://www.youtube.com/watch?v=rFO6NyLIP7M) per i backup, non sarai **MAI** in grado di lavorare in piena tranquillità con il tuo computer e, come immediata conseguenza, non sarai **MAI** in grado di scrivere decentemente qualsivoglia tipo di codice informatico.
 
 Perché avrai paura.
 
 Una paura inutile ed irrazionale di fare un qualche errore a caso e di perdere i tuoi dati senza copie di backup.
+
+## Le shortcut da tastiera sono una cosa bella!
+
+[Imparane qualcuna](https://support.microsoft.com/en-ca/help/12445/windows-keyboard-shortcuts)! La regola di base è che se spendi troppo tempo con una azione ripetitiva col mouse... quasi certamente la puoi fare con un colpo di tastiera!
+
+Sembra una stupidaggine di poco conto, ma alla lunga salva ore di lavoro!
 
