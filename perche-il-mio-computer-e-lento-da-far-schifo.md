@@ -32,6 +32,10 @@ Significa anche un'altra cosa, molto importante.
 
 **SE STAI PER COMPRARE UN COMPUTER NUOVO, PER L'AMOR DI DIO, COSTI QUEL CHE COSTI, COMPRANE UNO CHE ABBIA UNA SSD. SE NO FAI PRIMA A PRENDERNE UNO DAL CESTO DEI RIFIUTI ELETTRONICI.**
 
+Non spenderò ulteriori parole sulla questione perché ho già detto tutto quello che c'è da dire. Sta a te ora valutare quanto sei disposto a crederci e a quanto sei disposto ad avere un buon computer su cui lavorare.
+
+Per sostituire un HDD con un SSD trasferendone i contenuti ci sono innumerevoli video su Youtube, dell'ordine delle migliaia. Di certo ne troverai uno rivolto esattamente al tuo modello di computer. Di certo per davvero. A meno che non sia un improbabile modello di nicchia prodotto solo in Corea del Nord.
+
 ## Quando l'Antivirus causa patologie autoimmuni
 
 Quando si fa uso di Antivirus """gratuiti""" di qualità discutibile come Avast o altri, si tiene in carico inevitabilmente una enorme quantità di programmi \(di cui molti incredibilmente inutili ed anzi intralcianti\) che fanno larghissimo e spropositato uso delle risorse del sistema operativo \(**soprattutto, tantissimissime letture da disco! Quindi se si ha un HDD è un disastro totale!**\). Inoltre, se si è programmatori, molto spesso antivirus di bassa qualità finiscono per bloccare in prima istanza ogni codice si desidera eseguire per "analisi preliminari di sicurezza".
