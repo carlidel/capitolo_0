@@ -26,4 +26,6 @@ A seguito, una lista di programmi molto piacevoli da usare e, perché no, impost
 16. [WinCDEmu](http://wincdemu.sysprogs.org/), ottima utilità gratuita e leggera per emulare un lettore di CD e DVD per "riprodurre" file di tipo ".iso" e simili come se fossero proprio dei CD/DVD.
 17. [WinDirStat](https://windirstat.net/), per riuscire ad "esplorare" a fondo i propri file e riuscire a visualizzare in fretta quali sono le cartelle ed i file che occupano più spazio nel proprio computer, questo programma gratuito e piacevole offre una visione ad albero estremamente immediata ed intuitiva.
 18. [LinuxLive USB Creator](https://www.linuxliveusb.com/), qualora vogliate rinunciare a Windows e passare a Linux, questo è un programma molto intuitivo per creare le proprie chiavette USB di installazione di Linux.
+19. [Tutta la Suite di Microsoft Office 365](http://portal.office365.com), lo sapevi che gli studenti Unibo l'hanno totalmente aggratis? **SAPEVILO!!!** \(accedi con le tue credenziali accademiche\)
+20. [LibreOffice](https://www.libreoffice.org/), perché è bene avere una suite di ufficio di emergenza \(e poi LibreOffice Calc è meglio di Excel\)
 
