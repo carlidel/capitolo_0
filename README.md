@@ -1,6 +1,12 @@
+---
+description: >-
+  Psst... Se sei su Github vieni a leggermi su GitBook!!!
+  (https://carlidel.gitbook.io/capitolo-0/)
+---
+
 # Capitolo\_0
 
-## Cosa è Capitolo\_0?
+## Cosa è [Capitolo\_0](https://carlidel.gitbook.io/capitolo-0/)?
 
 È una lista basic e disordinata di nozioni col senno di poi estremamente basic di informatica e computazione ma che, nella mia personale esperienza, proprio in quanto estremamente basic vengono date troppo per scontate in ogni corso di informatica o di programmazione, finendo per lasciare incredibilmente ed inutilmente disorientati tutti coloro che si approcciano per la prima volta alla programmazione di qualsiasi livello.
 
@@ -26,7 +32,7 @@ Inevitabilmente ci saranno in giro non pochi errori di ortografia e sintassi, ed
 
 ### Voglio dare una mano, fare aggiunte o correggere un errore!
 
-Sei assolutamente il benvenuto! Il tuo aiuto è fondamentale! Apri un Issue e verrà subito presa in considerazione! Se sei disponibile posso anche aggiungerti come coautore!
+Sei assolutamente il benvenuto! Il tuo aiuto è fondamentale! Apri un "Issue" sulla [corrispondente pagina di Github](https://github.com/carlidel/capitolo_0) e verrà subito presa in considerazione! Se sei disponibile posso anche aggiungerti come coautore!
 
 ### Vedo i titoli ma è tutto vuoto, posso scrivere io i contenuti?
 
