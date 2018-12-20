@@ -11,8 +11,8 @@ Si presuppone che il lettore abbia sottomano una bash WSL funzionante. In caso d
 È molto facile, basta aprire una linea di comando WSL scrivendo `bash` su di una linea di comando Windows e poi scrivete:
 
 ```bash
-$ sudo apt update
-$ sudo apt install build-essential
+sudo apt update
+sudo apt install build-essential
 ```
 
 La prima riga vuol dire: eseguimi con permesso di amministratore \(`sudo`\) il programma gestore di pacchetti software standard di Ubuntu \(`atp`\) ed aggiornami da internet \(`update`\) tutto il software installabile esistente nei repository ufficiali di Ubuntu.

@@ -15,7 +15,7 @@ Una volta avviata, vi si aprirà una linea di comando che vi installerà il sist
 N.B. È possibile che vi verrà impostato in automatico un layout di tastiera Americano, ciò non è buono per nulla e, per cambiarlo nel layout di tastiera in automatico, eseguite il comando da linea di comando Linux on Windows:
 
 ```bash
-$ sudo dpkg-reconfigure keyboard-configuration
+sudo dpkg-reconfigure keyboard-configuration
 ```
 
 N.B. L'utente più all'avanguardia desidererà essere anche in grado di eseguire programmi provvisti di interfaccia grafica, oltre che solo programmi da linea di comando. Per fare ciò sarà necessario installare su Windows una valida implementazione del server grafico X, tale implementazione si chiama [Xming](http://www.straightrunning.com/XmingNotes/) ed è scaricabile da [qui](https://sourceforge.net/projects/xming/files/Xming/6.9.0.31/Xming-6-9-0-31-setup.exe/download), si consiglia anche l'installazione delle librerie standard di font assortiti per avere il campionario completo di Xming da [qui](https://sourceforge.net/projects/xming/files/Xming-fonts/7.7.0.10/Xming-fonts-7-7-0-10-setup.exe/download) \(Tali font sono necessari per la corretta esecuzione della libreria `passe-par-tout` scritta dal Prof.Graziano Servizi\).
@@ -23,16 +23,16 @@ N.B. L'utente più all'avanguardia desidererà essere anche in grado di eseguire
 Una volta installato e avviato tale server X \(comparirà in basso a destra come icona risultante server attivo presso l'indirizzo `.0`\), è necessario dire alla linea di comando ATTIVA Linux di FARE USO di tale server attivo sul computer `localhost`. Per fare ciò è sufficiente scrivere:
 
 ```bash
-$ export DISPLAY=:0
+export DISPLAY=:0
 ```
 
 È possibile automatizzare questa cosa ad ogni avvio della bash inserendo questo script nel file `\home\<iltuonomeutente>\.profile`, per fare ciò è sufficiente usare l'editor `nano` da terminale tramite i comandi:
 
 ```bash
 # per andare nella propria cartella home
-$ cd
+cd
 # per aprire e poter modificare il file .profile
-$ nano .profile
+nano .profile
 ```
 
 Molto facile e molto piacevole. :\)

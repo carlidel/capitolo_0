@@ -8,25 +8,25 @@ Lo vediamo ora qua.
 
 ## Le SSD sono una cosa bella. Gli HDD lo sono molto di meno.
 
-Al 99%, quando un computer è lento è perché va uso di un HardDiskDrive \(un disco rigido\) invece di un SolidStateDrive \(un disco a stato solido\).
+Al 99%, quando un computer è lento è perché va uso di un HardDiskDrive \(un disco rigido HDD\) invece di un SolidStateDrive \(un disco a stato solido SSD\).
 
 Seriamente, la causa del problema è sicuramente quella, principalmente.
 
 Non ci credi? Quanto il tuo computer comincia ad arrancare o si sta bloccando all'improvviso o tutto quanto prende a non funzionare, fai subito la combinazione di tasti `ctrl + shif + esc` per aprire di volata il Task Manager di Windows 10. Una volta fatto, dai una occhiata a "più dettagli" ed osserva la percentuale di utilizzo del "Disco". Quasi certamente sarà rossa e prossima al 100%.
 
-Che cosa significa, significa che il computer sta cercando di far funzionare un sistema operativo moderno incentrato sul multitasking su di un dispositivo di storage che, non essendo fisicamente in grado di gestire tante richieste di lettura non sequenziale, arranca mostruosamente e **rende l'intero Sistema Operativo lento come la messa cantata.**
+Che cosa significa? Significa che il computer sta cercando di far funzionare un sistema operativo moderno incentrato sul multitasking su di un dispositivo di storage che, non essendo fisicamente in grado di gestire tante richieste di lettura non sequenziale, arranca mostruosamente e **rende l'intero Sistema Operativo lento come la messa cantata.**
 
 Potrei stare ore a dire quanto è bello al contrario avere un computer velocissimo grazie alla presenza di una SSD, ma mi limiterò invece ad allegare questo [breve video espositivo](https://www.youtube.com/watch?v=YQEjGKYXjw8) \(del 2014, perché è da ANNI che esistono questi dispositivi a prezzi ragionevoli, adesso una SSD da 250GB costa 60 euro\) e ad affermare una profonda verità:
 
-**I MACBOOK SONO VELOCI SOLO PERCHÈ USANO UNA SSD DELLA MADONNA.**
+**I MACBOOK SONO VELOCI SOLO PERCHÈ USANO UN SSD DELLA MADONNA.**
 
 Vero, sono anche veloci perché hanno un buon sistema operativo leggermente più ottimizzato rispetto a Windows 10. Ma davvero,
 
-**I MACBOOK SONO VELOCI SOLO PERCHÈ USANO UNA SSD DELLA MADONNA.**
+**I MACBOOK SONO VELOCI SOLO PERCHÈ USANO UN SSD DELLA MADONNA.**
 
 Quindi? Che cosa significa?
 
-**SIGNIFICA CHE SE RIMPIAZZI L'HDD COL TUO COMPUTER CON UNA SSD AVRAI PERFORMANCE QUASI DEGNE DI UN MACBOOK DELLA STESSA ANNATA.**
+**SIGNIFICA CHE SE RIMPIAZZI L'HDD COL TUO COMPUTER CON UN SSD AVRAI PERFORMANCE DEGNE DI UN MACBOOK DELLA STESSA ANNATA, SE NON MIGLIORI.**
 
 Significa anche un'altra cosa, molto importante.
 
@@ -34,7 +34,7 @@ Significa anche un'altra cosa, molto importante.
 
 Non spenderò ulteriori parole sulla questione perché ho già detto tutto quello che c'è da dire. Sta a te ora valutare quanto sei disposto a crederci e a quanto sei disposto ad avere un buon computer su cui lavorare.
 
-Per sostituire un HDD con un SSD trasferendone i contenuti ci sono innumerevoli video su Youtube, dell'ordine delle migliaia. Di certo ne troverai uno rivolto esattamente al tuo modello di computer. Di certo per davvero. A meno che non sia un improbabile modello di nicchia prodotto solo in Corea del Nord.
+Per sostituire un HDD con un SSD trasferendone i contenuti ci sono innumerevoli video su Youtube, dell'ordine delle migliaia. Di certo ne troverai uno rivolto esattamente al tuo modello di computer. Di certo per davvero. A meno che tale computer non sia un improbabile modello di nicchia prodotto solo in Corea del Nord.
 
 ## Quando l'Antivirus causa patologie autoimmuni
 
@@ -42,7 +42,7 @@ Quando si fa uso di Antivirus """gratuiti""" di qualità discutibile come Avast 
 
 In altre parole, è un disastro, un disastro che in questi ultimi anni è diventato anche totalmente inutile.
 
-Avere un programma Antivirus è necessario. È vero che se si è attenti e cauti non si ha quasi mai a che fare con programmi infettivi, tuttavia non è sufficiente per [essere totalmente protetti da 0-day exploits](https://www.howtogeek.com/140795/htg-explains-why-you-need-an-antivirus-on-windows-no-matter-how-careful-you-are/). Tuttavia, è totalmente inutile e dannoso avere un programma Antivirus orribile prodotto da terze parti quando le ultime versioni di Windows Defender, con a fianco un programma di analisi manuale extra leggero e non invasivo risulta [essere una alternativa perfetta, gratuita e più rispettosa delle risorse del computer](https://www.howtogeek.com/225385/what%E2%80%99s-the-best-antivirus-for-windows-10-is-windows-defender-good-enough/).
+Avere un programma Antivirus è necessario. È vero che se si è attenti e cauti non si ha quasi mai a che fare con programmi infettivi, tuttavia non è sufficiente per [essere totalmente protetti da 0-day exploits](https://www.howtogeek.com/140795/htg-explains-why-you-need-an-antivirus-on-windows-no-matter-how-careful-you-are/). Tuttavia, è totalmente inutile e dannoso avere un programma Antivirus orribile prodotto da terze parti quando le ultime versioni di Windows Defender, con a fianco un programma di analisi manuale extra leggero e non invasivo, come Malwarebytes FREE, risulta [essere una alternativa perfetta, gratuita e più rispettosa delle risorse del computer](https://www.howtogeek.com/225385/what%E2%80%99s-the-best-antivirus-for-windows-10-is-windows-defender-good-enough/).
 
 Già se farete l'atto di coraggio di disinstallare il vostro eventuale Antivirus gratuito per poi attivare Windows Defender al suo posto, noterete immediatamente un boost nelle prestazioni del vostro computer.
 
