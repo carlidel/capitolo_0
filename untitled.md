@@ -112,7 +112,7 @@ Allegherò qua il mio personale template per scrivere un documento LaTeX nel for
     Questo è il mio abstract.
 \end{abstract}
 
-# Inizia una sezione e caratterizza la sezione con un label apposito per future cross-reference
+% Inizia una sezione e caratterizza la sezione con un label apposito per future cross-reference
 \section{Introduzione}\label{sec:intro}
 Lorem Ipsum.
 
@@ -129,34 +129,34 @@ non mi devo preoccupare di dove LaTeX mi andrà effettivamente a collocare immag
 tabelle, in quanto sono consapevole che le collocherà nella migliore posizione possibile
 secondo gli standard tipografici.
 
-# Implementazione basic di una figura:
-# [!htp] significa: mettimi la figura qui dove dico io (!h), se fallisci
-# mettila invece in cima alla pagina (t), se fallisci ancora invece mettila
-# in una pagina dedicata di oggetti float quali immagini e tablee (p)
+% Implementazione basic di una figura:
+% [!htp] significa: mettimi la figura qui dove dico io (!h), se fallisci
+% mettila invece in cima alla pagina (t), se fallisci ancora invece mettila
+% in una pagina dedicata di oggetti float quali immagini e tablee (p)
 \begin{figure}[!htp]
-    # voglio l'immagine al centro della pagina
+    % voglio l'immagine al centro della pagina
     \centering
-    # voglio l'immagine larga quanto i margini del testo, se la volessi invece
-    # grande quanto la metà dei margini dovrei scrivere [width=0.5\textwidth]
+    % voglio l'immagine larga quanto i margini del testo, se la volessi invece
+    % grande quanto la metà dei margini dovrei scrivere [width=0.5\textwidth]
     \includegraphics[width=\textwidth]{immagineculo.jpg}
-    # introduco poi un caption descrittivo dell'immagine e poi vi collego il label
-    # da usare per cross-reference.
+    % introduco poi un caption descrittivo dell'immagine e poi vi collego il label
+    % da usare per cross-reference.
     \caption{Questa è una immagine culo.}\label{fig:culo}
 \end{figure}
 
-# Implementazione basic di una tabella
+% Implementazione basic di una tabella
 \begin{table}[!htp]
     \centering
-    # con {lcc} indico che voglio 3 colonne,
-    # una con il testo allineato a sinistra (l)
-    # due con il testo centrato (c)
+    % con {lcc} indico che voglio 3 colonne,
+    % una con il testo allineato a sinistra (l)
+    % due con il testo centrato (c)
     \begin{tabular}{lc}
         \toprule
         Parametro & Valore $[\si{km}]$ & Secondo Valore $[\si{s}]$ \\
         \midrule
-        Valore $\alpha$ & $10.1$ & 10.5 \\
-        Valore $\beta$ & $10.1$ & 10.5 \\
-        Valore $\gamma$ & $10.1$ & 10.5 \\
+        Valore $\alpha$ & $10.1$ & $10.5$ \\
+        Valore $\beta$ & $10.1$ & $10.5$ \\
+        Valore $\gamma$ & $10.1$ & $10.5$ \\
         \bottomrule
     \end{tabular}
     \caption{Parametri a caso.}\label{tab:culo}
