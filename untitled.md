@@ -52,7 +52,7 @@ Si consiglia quindi di cominciare ad usare come primo editor di codice LaTeX il 
 
 ## Sì, ok, ma se volessi un inizio rapido ed estremamente riassunto?
 
-Allegherò qua il mio personale template per scrivere un documento LaTeX nel formato standard _article_, con alcuni trucchetti di esempio ed alcune indicazioni di sorta commentate \(da completare, ora è tutto incompleto\)
+Allegherò qua il mio personale template per scrivere un documento LaTeX nel formato standard _article_, con alcuni trucchetti di esempio ed alcune indicazioni di sorta commentate per quanto riguarda l'implementazione di figure e tabelle, che è sempre la parte più critica. Per quel che riguarda invece la scrittura di equazioni e matematica, la dispensa consigliata è l'unica via sensata da percorrere.
 
 ```text
 % Dichiarazione di intenti in formato del documento, dell'input e della lingua
@@ -112,22 +112,62 @@ Allegherò qua il mio personale template per scrivere un documento LaTeX nel for
     Questo è il mio abstract.
 \end{abstract}
 
-% I label sono importanti per fare cross-reference
-\section{culo}\label{sec:culo}
+# Inizia una sezione e caratterizza la sezione con un label apposito per future cross-reference
+\section{Introduzione}\label{sec:intro}
+Lorem Ipsum.
 
-Ora siamo nella sezione~\ref{sec:culo}, guardate la Figura~\ref{fig:culo}.
+\subsection{subIntroduzione}\label{subsec:subintro}
+Lorem Ipsum.
 
+\section{Cose a caso}\label{sec:coseacaso}
+Ora siamo nella sezione~\ref{sec:coseacaso},
+perché non dare comunque una occhiata alla sottosezione~\ref{subsec:subintro}?
+
+Guarda ora l'immagine in Figura~\ref{fig:culo} e la Tabella~\ref{tab:culo}.
+Siccome sto facendo cross-reference con tanto di link cliccabile col comando `ref'
+non mi devo preoccupare di dove LaTeX mi andrà effettivamente a collocare immagini e
+tabelle, in quanto sono consapevole che le collocherà nella migliore posizione possibile
+secondo gli standard tipografici.
+
+# Implementazione basic di una figura:
+# [!htp] significa: mettimi la figura qui dove dico io (!h), se fallisci
+# mettila invece in cima alla pagina (t), se fallisci ancora invece mettila
+# in una pagina dedicata di oggetti float quali immagini e tablee (p)
 \begin{figure}[!htp]
+    # voglio l'immagine al centro della pagina
     \centering
-    \caption[width=\textwidth]{immagineculo.jpg}
-    \label{fig:culo}
+    # voglio l'immagine larga quanto i margini del testo, se la volessi invece
+    # grande quanto la metà dei margini dovrei scrivere [width=0.5\textwidth]
+    \includegraphics[width=\textwidth]{immagineculo.jpg}
+    # introduco poi un caption descrittivo dell'immagine e poi vi collego il label
+    # da usare per cross-reference.
+    \caption{Questa è una immagine culo.}\label{fig:culo}
 \end{figure}
 
-
-
+# Implementazione basic di una tabella
+\begin{table}[!htp]
+    \centering
+    # con {lcc} indico che voglio 3 colonne,
+    # una con il testo allineato a sinistra (l)
+    # due con il testo centrato (c)
+    \begin{tabular}{lc}
+        \toprule
+        Parametro & Valore $[\si{km}]$ & Secondo Valore $[\si{s}]$ \\
+        \midrule
+        Valore $\alpha$ & $10.1$ & 10.5 \\
+        Valore $\beta$ & $10.1$ & 10.5 \\
+        Valore $\gamma$ & $10.1$ & 10.5 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Parametri a caso.}\label{tab:culo}
+\end{table}
 
 \end{document}
 ```
 
-## Altre cose utili del LaTeX che possono sfuggire di vista?
+## Altre cose utili per LaTeX che possono sfuggire di vista?
+
+* [Il pacchetto physics](http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/physics/physics.pdf), è una libreria secondaria da installare per LaTeX che contiene una tonnellata di utilissimi strumenti e comandi per scrivere matematica da fisici, quali il comando rapido `\vb{}` per fare il grassetto da notazione vettoriale o il comando generico `\pdv` per scrivere in fretta equazioni a derivate parziali. Include inoltre tutta la notazione di Dirac per scrivere di meccanica quantistica.
+* [Detexify](http://detexify.kirelabs.org/classify.html), non ricordi il comando per scrivere un simbolo matematico qualsiasi su LaTeX? Disegnalo a mano libera \(o mouse libero\) su questo sito e lascia che l'algoritmo ad apprendimento macchina \(più o meno, usa un sistema a nearest-neighbour\) riconosca che simbolo hai disegnato indicandoti il comando LaTeX corrispondente!
+* **BiBLaTeX è una cosa bella!** Se impari a far uso di un database bibliografico automatizzato, costruire le referenze bibliografiche diventa un semplice copia-incolla dall'utilità di citazione automatizzata di Google Scholar \(le virgolette blu sotto al link del paper\) o di qualsiasi altro tasto di citazione automatica di una rivista online! Copiando-incollando la voce di database scritta in formato **Bibtex** in un file di database bibliografico usato all'interno del codice LaTeX, avrai la possibilità di costruire in automatico tutte le voci secondo le proprie preferenze di standard bibliografico. È molto più facile a farsi che a dirsi, si consiglia caldamente la lettura del capitolo su come fare la bibliografia su LaTeX nella dispensa consigliata. È una lettura di mezz'ora che fa risparmiare ore e ore e ore di lavoro inutile.
 
