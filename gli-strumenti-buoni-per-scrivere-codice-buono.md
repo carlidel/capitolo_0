@@ -36,11 +36,19 @@ A seguito si consiglia di provare i seguenti editor, in generale non limitatevi 
 
 ### Un buon sistema di backup e di version control
 
-Per quel che riguarda il **Backup,** l'ideale è conservare sempre le proprie cartelle di lavoro all'interno di cartelle in sincronizzazione con un qualche servizio cloud come Dropbox od i 1000GB gratuiti che OneDrive offre agli studenti Unibo.
+Per quel che riguarda il **Backup,** l'ideale è conservare sempre le proprie cartelle di lavoro all'interno di cartelle in sincronizzazione con un qualche servizio cloud come Dropbox od i 1000GB gratuiti che OneDrive offre agli studenti Unibo. Ciò permette di non subire gravi ritardi e crolli nervosi in caso di guasti informatici, cataclismi o furti.
 
-Per quel che riguarda il **version control**, 
+Che cosa si intende invece con **version control**? Si intende fare uso di uno strumento che tenga traccia mano a mano di quali modifiche sono state fatte progressivamente alle varie parti del codice. Quando si fanno 10 copie diverse di uno stesso file o documento \(chiamandole finale.cpp, finaleDavvero.cpp, finaleFinaleDavvero\_v2.cpp e così via\) si sta facendo manualmente e in malo modo una sorta di version control. Fortunatamente, esistono svariati strumenti che permettono di tenere traccia di tutte le modifiche ad un file di codice senza mai perdere lo storico di tutto quanto è stato scritto, riscritto o cancellato.  
+Lo strumento più famoso usato in programmazione per fare ciò è [Git](https://www.youtube.com/watch?v=Y9XZQO1n_7c). E verrà analizzato più nel dettaglio nella pagina "Git è una cosa bella", in quanto strumento di vitale importanza per tenere traccia dei progressi di un progetto grosso o di gruppo.
 
 ### Un buon framework per fare grafici
+
+Siamo fisici. I fisici devono essere in grado sempre di presentare a modo ogni tipo di dato sperimentale esistente in forma chiara, ordinata, corretta e, soprattutto, elegante. Qualsiasi sarà il programma di simulazione numerica che verrà scritto, è vitale che sia studiato a parte un buon sistema agile di stampa e di visualizzazione dei dati prodotti. Altrimenti non vale la pena di prendersi il disturbo di scrivere il codice in prima istanza.  
+A seguito sono elencati alcuni strumenti che possono essere più o meno facilmente integrati con il proprio codice. Non vengono presi in considerazione strumenti come Excel o LibreOffice Calc.
+
+1. [ROOT CERN](https://root.cern.ch/), framework di analisi statistica e plotting basato in C/C++ utilizzato nei principali progetti del CERN. È uno strumento molto potente e vasto la cui padronanza permette di maneggiare qualsiasi tipo di dato o grafico possibile. Tuttavia, la sua sintassi di utilizzo risulta molto ostica e tutt'altro che intuitiva, a meno di investire tempo a leggere i vari manuali di utilizzo. Si consiglia di seguire pedissequamente i corsi di Laboratorio 1 e 2 per apprendere il più possibile riguardo l'utilizzo di questo strumento.
+2. [GnuPlot](http://www.gnuplot.info/), programma di plotting per antonomasia su Linux, ha una sintassi molto più agile e leggera e facile da usare di ROOT CERN e, tramite l'inclusione di una singola libreria o tramite l'utilizzo di chiamate a sistema all'interno del proprio codice, è possibile fare il plot di qualsiasi cosa senza troppe difficoltà.
+3. [Matplotlib](https://matplotlib.org/), la libreria standard di plotting e grafica su linguaggio Python. Se uno si prende il tempo di imparare un po' di linguaggio Python, si ha la possibilità di fare in 5 righe di codice l'equivalente di 30 righe in ROOT CERN. La documentazione estremamente completa su internet rende questa libreria capace di affrontare ogni situazione o scenario esistente di analisi dati, potendo anche contare sulla sintassi estremamente agile e flessibile del linguaggio Python \(maggiori dettagli in "Il Python è una cosa bella!"\).
 
 ## Gli avanzati \(ma molto utili\)
 
