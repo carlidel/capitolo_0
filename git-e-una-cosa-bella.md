@@ -42,5 +42,7 @@ Se questo non basta, [Github Desktop](https://desktop.github.com/) è uno dei mi
 
 Dipende a seconda del progetto e delle sue dimensioni, ma oserei dire quasi sempre sì. Per il semplice fatto che, se usato bene, Git offre la possibilità di avere uno storico completo dello sviluppo di un progetto dall'inizio alla fine. Il valore di questa cosa in termini di tempo risparmiato è incommensurabile e permette di avere sempre sottomano una macchina del tempo in caso di disastro inenarrabile a livello di modifiche rompi codice.
 
+![Mandatory xkcd comic 2](.gitbook/assets/git_commit.png)
+
 ### 
 
