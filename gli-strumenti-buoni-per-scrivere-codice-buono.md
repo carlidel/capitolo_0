@@ -34,6 +34,8 @@ A seguito si consiglia di provare i seguenti editor, in generale non limitatevi 
 
 ### Un buon \(modo di accedere al\) compilatore
 
+In editor come Visual Studio Code o Sublime Text, è possibile avere accesso ad un pannello di linea di comando automaticamente collocata nella stessa directory in cui si trovano i file con cui si sta lavorando. Questo significa risparmiare ore e ore di tempo nel dover ogni volta reimpostare il percorso giusto con tanti comandi di `cd`.
+
 ### Un buon sistema di backup e di version control
 
 Per quel che riguarda il **Backup,** l'ideale è conservare sempre le proprie cartelle di lavoro all'interno di cartelle in sincronizzazione con un qualche servizio cloud come Dropbox od i 1000GB gratuiti che OneDrive offre agli studenti Unibo. Ciò permette di non subire gravi ritardi e crolli nervosi in caso di guasti informatici, cataclismi o furti.
